@@ -8,11 +8,11 @@ class App extends Component {
       <div className="App">
         <div className="container">
           <div className="row">
-            <div className="col-lg-6">
+            <div className="col-lg-6 col-lg-offset-3 about">
               <h1> Hi, I'm Kate! </h1>
-              I am a recent graduate of Launch Academy, a Boston based programming bootcamp with a background in Applied Economics.
+              <p>I am a recent graduate of Launch Academy, a Boston based programming bootcamp with a background in Applied Economics.
               I love to solve problems and increase efficiency through code ands streamlining processes. When I'm not coding you can find
-              me hiking, at the dog park or new local brewery.
+              me hiking, at the dog park or new local brewery.</p>
             </div>
           </div>
         </div>
