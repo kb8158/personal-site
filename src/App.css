@@ -1,10 +1,20 @@
 .App {
   text-align: left;
 }
-
-.App-header {
+/*
+.header {
   background: linear-gradient( to top, gray, #556a8c);
   height: 25px;
   padding: 20px;
   color: white;
+
+}*/
+
+.about {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: 'Quattrocento', serif;
 }
