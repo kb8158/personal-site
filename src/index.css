@@ -10,10 +10,14 @@ header {
   height: 50px;
   background-color: white;
   color: rgb(129, 159, 197);
-  top: 50%;
-  transform: translate(0, -50%);
+  font-size: 14pt;
 }
 
 .top {
   margin-top: 20px;
+}
+
+.links {
+  padding-top: 10px;
+  padding-right: 25px;
 }

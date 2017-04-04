@@ -10,7 +10,7 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-// ReactDOM.render(
-//   <Project data={data}/>,
-//   document.getElementById('root')
-// );
+ReactDOM.render(
+  <Project data={data}/>,
+  document.getElementById('app')
+);
