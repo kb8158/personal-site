@@ -1,42 +1,20 @@
-// import React from "react";
-// // import ProjectList from "./ProjectList";
-// import {data} from "../constants/data";
-// //
-// // const Project = (props) => {
-// //   return(
-// //     <div>
-// //       <div>
-// //         <ProjectList projects={data}/>
-// //       </div>
-// //     </div>
-// //   )
-// //
-// // }
-// //
-// // export default Project;
-//
+// import React from 'react';
+// import {data} from '../constants/data'
 //
 // class Project extends React.Component {
-//   constructor(props) {
+//   constructor(props){
 //     super(props);
-//
 //   }
 //   render() {
-//     let projects={data}
-//     let projectList=this.projects.map(project => {
-//       return(
-//         <Project
-//         key={project.id}
-//         name={project.name}
-//         about={project.about}
-//         />
-//       );
-//     });
+//     this.props.data.map(project=>{
+//
 //     return(
-//       <ul>{projects}</ul>
-//     );
+//       <div key={data.id}>
+//         {project.name}
+//       </div>
+//       )
+//     })
 //   }
+// }
 //
-// };
-//
-// export default Project;
+// export default Project

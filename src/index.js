@@ -9,8 +9,8 @@ ReactDOM.render(
   <App />,
   document.getElementById('root')
 );
-// 
+
 // ReactDOM.render(
-//   <Project data={data[0]} />,
+//   <Project data={data} />,
 //   document.getElementById('work')
 // );
