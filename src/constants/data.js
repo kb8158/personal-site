@@ -1,4 +1,4 @@
-export const data = [
+const data = [
   {
     id: 1,
     name: "GearX",
@@ -12,3 +12,5 @@ export const data = [
 
   }
 ]
+
+module.exports = data

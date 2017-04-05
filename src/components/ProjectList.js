@@ -1,16 +1,25 @@
-import React from 'react';
-
-const ProjectList = (props) => {
-  return(
-    <div>
-      <div>
-        <div>
-        <h2>{props.name}</h2>
-        </div>
-      </div>
-    </div>
-  )
-
-}
-
-export default ProjectList;
+// import React from 'react';
+// import Project from './Project';
+//
+// class ProjectList extends React.Component {
+//   constructor(props) {
+//     super(props);
+//   }
+//   render() {
+//     let projectList=this.projects.map(project => {
+//       return(
+//         <ProjectList
+//         key={project.id}
+//         name={project.name}
+//         about={project.about}
+//         />
+//       );
+//     });
+//     return(
+//       <ul>{projectList}</ul>
+//     );
+//   }
+//
+// };
+//
+// export default ProjectList;
